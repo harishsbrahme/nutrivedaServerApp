@@ -1,0 +1,34 @@
+{
+  "name": "nutrivedaserver",
+  "version": "1.0.0",
+  "description": "Server application for nutriveda",
+  "keywords": [
+    "nutriveda"
+  ],
+  "homepage": "https://github.com/harishsbrahme/nutrivedaServerApp#readme",
+  "bugs": {
+    "url": "https://github.com/harishsbrahme/nutrivedaServerApp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harishsbrahme/nutrivedaServerApp.git"
+  },
+  "license": "MIT",
+  "author": "Harish Brahme",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.10.2",
+    "typescript": "^7.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.20.2",
+    "tsx": "^4.23.15"
+  }
+}
